@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>SCHEDULE MANAGER</title>
+</head>
+<body >
+    <h1>SCHEDULE MANAGER</h1>
+    <div id="task-list">
+        <!-- Task list will be displayed here -->
+    </div>
+    <button id="add-task">Add Task</button>
+
+    <!-- Task form (hidden by default) -->
+    <div id="task-form" style="display: none;">
+        <h2>Add/Edit Task</h2>
+        <form id="task-form">
+            <label for="task-name">Task Name:</label>
+            <input type="text" id="task-name" required>
+            <br>
+            <label for="task-description">Task Description:</label>
+            <textarea id="task-description"></textarea>
+            <br>
+            <label for="due-date">Due Date:</label>
+            <input type="date" id="due-date" required>
+            <br>
+            <button id="save-task">Save</button>
+            <button id="cancel-task">Cancel</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

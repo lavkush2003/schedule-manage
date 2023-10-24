@@ -1,0 +1,50 @@
+body {
+    background-image: image("box6_image.jpg");
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(91, 174, 183);
+    
+}
+
+h1 {
+    color: #333;
+}
+
+#task-list {
+    margin: 20px auto;
+    width: 80%;
+    text-align: left;
+}
+
+.task {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+}
+
+#add-task {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#task-form {
+    margin: 20px auto;
+    width: 50%;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
